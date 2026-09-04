@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "build": 106,
+  "date": "2026-09-04",
+  "url": "https://3310n.github.io/financial_guide-releases/financial-guide-v1.0.0-arm64-v8a.apk",
+  "universalUrl": "https://3310n.github.io/financial_guide-releases/financial-guide-v1.0.0-universal.apk",
+  "page": "https://3310n.github.io/financial_guide-releases/",
+  "notes": "- feat: localize budget warnings, month labels, biometric labels and home widget (en/fr)\n- feat: localize savings, settings, exchange rate, login and lock screens (en/fr)\n- feat: localize entry, category and budget planning screens (en/fr)\n- feat: localize read screens, dashboard cards and widgets (en/fr)\n- feat: localization foundation (en/fr, system locale)"
+}
