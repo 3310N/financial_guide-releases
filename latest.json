@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "build": 132,
+  "date": "2026-09-06",
+  "url": "https://3310n.github.io/financial_guide-releases/financial-guide-v1.0.0-arm64-v8a.apk",
+  "page": "https://3310n.github.io/financial_guide-releases/",
+  "notes": "- ci: single workflow, gate once per push, release without the universal APK"
+}

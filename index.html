@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Financial Guide — téléchargement</title>
+<style>
+  :root { color-scheme: light dark; --accent: #276EF1; --bg: #fff; --fg: #111; --muted: #6b7280; --card: #f6f6f6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f1115; --fg: #eee; --muted: #9ca3af; --card: #1a1d24; } }
+  body { margin: 0; padding: 24px 16px 48px; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); max-width: 640px; margin-inline: auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin-bottom: 24px; }
+  ul { list-style: none; padding: 0; margin: 0 0 24px; }
+  li { background: var(--card); border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; display: flex; flex-direction: column; gap: 6px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 12px 18px; border-radius: 10px; text-align: center; }
+  .meta { font-size: 0.85rem; color: var(--muted); word-break: break-all; }
+  code { font-size: 0.75rem; }
+  .primary { border: 2px solid var(--accent); }
+  h2 { font-size: 1.1rem; margin: 24px 0 8px; }
+  ol { padding-left: 20px; }
+  .note { font-size: 0.9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<h1>Financial Guide</h1>
+<div class="sub">Version 1.0.0 (build 132) · publiée le 2026-09-06</div>
+
+<ul>
+  <li class="primary"><a class="btn" href="financial-guide-v1.0.0-arm64-v8a.apk" download>Télécharger pour mon téléphone (arm64)</a><span class="meta">23M · SHA-256 <code>37b53e36d7ad3f84b13e8221400f31c6da72be690dc2d402b7ad237f7e8fb2a4</code></span></li>
+  <li><a class="btn" href="financial-guide-v1.0.0-armeabi-v7a.apk" download>Ancien téléphone 32 bits (armeabi-v7a)</a><span class="meta">21M · SHA-256 <code>113b6ecbe4ba0ea5452fc34c529d06ea90bbcbf401cf301c099faf021936aeb4</code></span></li>
+  <li><a class="btn" href="financial-guide-v1.0.0-x86_64.apk" download>Émulateur / x86_64</a><span class="meta">25M · SHA-256 <code>07d24d5053a5ab81e90523e96c205527f2bcc9ecc19c6c2817bf288380fe2092</code></span></li>
+</ul>
+
+<h2>Nouveautés</h2><ul></ul>
+
+<h2>Installation</h2>
+<ol>
+  <li>Télécharger le fichier arm64 (la plupart des téléphones depuis 2017).</li>
+  <li>Ouvrir le fichier téléchargé ; autoriser l'installation depuis le navigateur si Android le demande.</li>
+  <li>Première installation par-dessus une version de développement : désinstaller l'ancienne d'abord (signature différente). Les données sont dans le compte, rien n'est perdu.</li>
+</ol>
+<p class="note">Android peut afficher un avertissement Play Protect parce que l'application lit les SMS bancaires (import automatique, optionnel). Vérifier l'empreinte SHA-256 ci-dessus en cas de doute. <a href="SHA256SUMS.txt">SHA256SUMS.txt</a> · <a href="latest.json">latest.json</a></p>
+</body>
+</html>
