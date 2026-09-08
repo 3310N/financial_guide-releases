@@ -1,0 +1,3 @@
+3e39936778ee565f96d65a4d4a5204d5d0b7f071bd0701dd7329237e2c667f65  financial-guide-v1.0.0-arm64-v8a.apk
+3886c8b46cdfee29cace724ee89a5c02e9eba65c0c85a9da5b48a4136b653e77  financial-guide-v1.0.0-armeabi-v7a.apk
+6c83780cdf257b7595ef1580da05bfff13e27addb66bb884a10e3db70aefad91  financial-guide-v1.0.0-x86_64.apk
